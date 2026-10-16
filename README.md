@@ -46,7 +46,7 @@ La `x` del segon camp indica que la contrasenya del grup, si n'hi hagués, estar
 
 Fem servir `tail -n 5` per veure només les últimes cinc línies del fitxer, que són les més recents i per tant on apareixen els grups que acabem de crear.
 
-![Creació dels grups i comprovació a /etc/group](img/01-grups.png)
+![Creació dels grups i comprovació a /etc/group](/img/1.png)
 
 ### Comprovació
 
@@ -77,7 +77,7 @@ sudo nano /etc/skel/BENVINGUDA.txt
 
 Dins de l'editor hi escrivim les normes d'ús del servidor i guardem amb `Ctrl+O`, `Enter` i sortim amb `Ctrl+X`.
 
-![Edició del fitxer de benvinguda amb nano](img/02-nano-benvinguda.png)
+![Edició del fitxer de benvinguda amb nano](/img/2.png)
 
 L'etiqueta `[ New File ]` que apareix a la part inferior indica que el fitxer no existia i que nano l'està creant de zero.
 
@@ -87,7 +87,7 @@ Comprovem que s'ha guardat correctament:
 cat /etc/skel/BENVINGUDA.txt
 ```
 
-![Comprovació del contingut del fitxer de benvinguda](img/03-cat-benvinguda.png)
+![Comprovació del contingut del fitxer de benvinguda](/img/3.png)
 
 El fitxer conté les quatre normes d'ús del servidor que rebrà tot usuari nou al seu directori personal.
 
@@ -105,7 +105,7 @@ Al fitxer `.bashrc` hi afegim la línia:
 alias ll='ls -la --color=auto'
 ```
 
-![Creació de la carpeta Documents i àlies al .bashrc](img/04-mkdir-alias.png)
+![Creació de la carpeta Documents i àlies al .bashrc](/img/4.png)
 
 **Explicació:** un àlies és un nom curt que substitueix una comanda més llarga. En aquest cas, quan l'usuari escrigui `ll`, bash executarà `ls -la --color=auto`, que mostra tots els fitxers (inclosos els ocults) en format llarg i amb colors.
 
@@ -117,7 +117,7 @@ Cal tenir en compte que el `.bashrc` per defecte d'Ubuntu ja porta un àlies `ll
 grep DSHELL /etc/adduser.conf
 ```
 
-![Comprovació de la variable DSHELL](img/05-dshell.png)
+![Comprovació de la variable DSHELL](/img/5.png)
 
 **Explicació:** el fitxer `/etc/adduser.conf` conté la configuració per defecte de la comanda `adduser`. La variable `DSHELL` defineix quina shell s'assignarà als usuaris nous. A la captura es veu que el valor és `/bin/bash`, que és exactament el que demana l'enunciat, i que la línia apareix comentada amb `#` perquè ja és el valor predeterminat del programa: les línies comentades serveixen de documentació i només cal descomentar-les si volem canviar el valor.
 
@@ -133,7 +133,7 @@ ls -la
 ll
 ```
 
-![Primer intent amb l'usuari prova10](img/06-prova-primer-intent.png)
+![Primer intent amb l'usuari prova10](/img/6.png)
 
 **Observació:** en aquest primer intent el fitxer `BENVINGUDA.txt` no apareix al directori personal. El motiu és que s'havia sortit de nano sense desar cap contingut, de manera que el fitxer no existia a `/etc/skel` quan es va crear l'usuari. Un cop corregit, repetim la prova amb un usuari nou:
 
