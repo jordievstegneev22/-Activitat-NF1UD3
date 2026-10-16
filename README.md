@@ -236,7 +236,7 @@ sudo passwd marc_sys
 sudo passwd auditor
 ```
 
-![Assignació de contrasenyes](img/12-passwd.png)
+![Assignació de contrasenyes](/img/777.png)
 
 Els usuaris creats amb `adduser` ja tenien contrasenya perquè l'script la demana durant el procés. Als creats amb `useradd` cal assignar-la manualment, ja que sense contrasenya el compte queda bloquejat i no s'hi pot iniciar sessió.
 
