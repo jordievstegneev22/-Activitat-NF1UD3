@@ -413,7 +413,9 @@ echo $SHELL
 status
 ```
 
-![Canvi de shell i sessió amb fish](img/18-fish-laura.png)
+![Canvi de shell i sessió amb fish](/img/100.png)
+
+![Canvi de shell i sessió amb fish](/img/101.png)
 
 **Explicació:** primer executem `which fish` per saber la ruta exacta on s'ha instal·lat el binari (`/usr/bin/fish`). Aquest pas és important: si a `usermod -s` hi indiquéssim una ruta inexistent, l'usuari no podria iniciar sessió.
 
