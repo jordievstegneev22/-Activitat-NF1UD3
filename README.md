@@ -394,9 +394,9 @@ sudo apt install fish -y
 ```
 
 
-![Actualització de la llista de paquets](img/16-apt-update.png)
+![Actualització de la llista de paquets](/img/25.png)
 
-![Instal·lació de fish](img/17-install-fish.png)
+![Instal·lació de fish](/img/26.png)
 
 **Explicació:** `apt update` descarrega la llista actualitzada de paquets disponibles des dels repositoris configurats a `/etc/apt/sources.list`. És imprescindible executar-lo abans d'instal·lar res, perquè sense una llista actualitzada APT podria intentar descarregar versions que ja no existeixen als servidors.
 
