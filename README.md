@@ -215,7 +215,7 @@ sudo useradd -m -d /home/marc_sys -s /bin/bash -g sysadmin -G devs -c "Marc Sole
 sudo useradd -m -d /home/auditor -s /bin/bash -g auditor -c "Usuari Auditor" auditor
 ```
 
-![Creació de marc_sys i auditor amb useradd](img/11-useradd.png)
+![Creació de marc_sys i auditor amb useradd](/img/55.png)
 
 **Explicació:** a diferència d'`adduser`, la comanda `useradd` és de baix nivell i no és interactiva: no demana res i només fa exactament allò que li indiquem amb les opcions. Per això cal especificar-ho tot:
 
