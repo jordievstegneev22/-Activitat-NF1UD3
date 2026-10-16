@@ -163,7 +163,7 @@ sudo deluser -r prova10
 ```
 
 
-![Error en utilitzar l'opció abreujada -r](img/08-deluser-error.png)
+![Error en utilitzar l'opció abreujada -r](/img/121212.png)
 
 **Incidència trobada:** la comanda retorna l'error `Option r is ambiguous (remove-all-files, remove-home)`. En aquesta versió d'Ubuntu, `deluser` té dues opcions que comencen per `r` —`--remove-home` i `--remove-all-files`— i per això l'abreviatura `-r` resulta ambigua i el programa no pot decidir quina volem. La solució és escriure l'opció completa:
 
