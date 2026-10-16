@@ -144,7 +144,7 @@ ls -la
 ll
 ```
 
-![Comprovació correcta amb l'usuari prova10b](img/07-prova-correcte.png)
+![Comprovació correcta amb l'usuari prova10b](/img/7.png)
 
 ### Comprovació
 
@@ -173,7 +173,7 @@ sudo deluser --remove-home prova10b
 ls /home
 ```
 
-![Eliminació correcta dels usuaris de prova](img/09-deluser-ok.png)
+![Eliminació correcta dels usuaris de prova](/img/9.png)
 
 ### Comprovació
 
