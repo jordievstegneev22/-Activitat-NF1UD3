@@ -202,7 +202,7 @@ sudo adduser --ingroup devs pau_dev
 sudo adduser --ingroup devs laura_dev
 ```
 
-![Creació de pau_dev i laura_dev amb adduser](img/10-adduser.png)
+![Creació de pau_dev i laura_dev amb adduser](/img/44.png)
 
 **Explicació:** `adduser` és un script interactiu d'alt nivell que crea l'usuari, el seu directori personal, hi copia el contingut de `/etc/skel`, demana la contrasenya i la informació GECOS (nom real, telèfons, etc.).
 
