@@ -276,7 +276,7 @@ grep SKEL /etc/adduser.conf
 grep SKEL /etc/default/useradd
 ```
 
-![Inspecció dels fitxers del sistema](img/14-inspeccio.png)
+![Inspecció dels fitxers del sistema](/img/1000.png)
 
 ### Pregunta 1: Quins UID, GID i grups té assignats `marc_sys`?
 
