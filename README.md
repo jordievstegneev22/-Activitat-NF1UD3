@@ -362,7 +362,7 @@ grep auditor /etc/passwd
 ```
 
 
-![Bloqueig, desbloqueig i eliminació d'usuaris](img/15-bloqueig-eliminacio.png)
+![Bloqueig, desbloqueig i eliminació d'usuaris](/img/30.png)
 
 ### Explicació
 
