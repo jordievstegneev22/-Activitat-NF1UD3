@@ -248,7 +248,7 @@ sudo chage -l pau_dev
 su - pau_dev
 ```
 
-![Forçar el canvi de contrasenya amb chage](img/13-chage.png)
+![Forçar el canvi de contrasenya amb chage](/img/222.png)
 
 **Explicació:** `chage` (*change age*) gestiona la caducitat de les contrasenyes. L'opció `-d 0` posa la data de l'últim canvi a 0, és a dir, l'1 de gener de 1970. Com que aquesta data és anterior a qualsevol període de validesa, el sistema interpreta que la contrasenya ha caducat i obliga l'usuari a canviar-la en el primer inici de sessió. L'opció `-l` mostra tota la informació de caducitat del compte.
 
